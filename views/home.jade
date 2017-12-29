@@ -1,0 +1,20 @@
+html
+  head
+    include partials/head.jade
+  body
+    include partials/nav.jade
+    div.container
+      div.row
+        div.col-md-12
+          h1(align='center')= headline
+
+    br
+    br
+    br
+    div.container
+      div.row
+        div.col-md-12
+          img(style = "width:100%" src='/images/home.jpg')
+        
+    script(src="/js/jquery-3.2.1.min.js")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", crossorigin="anonymous")
